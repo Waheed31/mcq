@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+  font-family:'manrope',sans-serif;
+}
+.table{
+    width: 100%;
+    padding: 1rem;
+    font-size: 10px;
+  }
+  
+  .table table{
+    width: 100%;
+    background: white;
+    border-collapse:collapse; 
+    margin-top: 40px;
+    border-radius: 10px;
+  
+    
+  }
+
+  
+  .table table thead tr{
+    border-bottom: 1px solid rgb(195, 194, 194);
+    text-align: left;
+    color: gray;
+    
+  }
+  .tableclass{
+    background-color:white;
+    
+    border-radius: 10px;
+
+  }
+  
+  .table table thead tr th{
+   
+    font-size: 10px;
+  }
+
+  .table table tbody tr {
+    border: 1px solid #d9d9d9;
+    
+  }

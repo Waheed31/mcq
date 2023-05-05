@@ -1,0 +1,402 @@
+body {
+  background-color: #ebecf1;
+}
+
+.Html {
+  position: absolute;
+  height: 33px;
+  left: 220px;
+  right: 1552px;
+  top: 128px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #212121;
+}
+
+.mat-card {
+  position: absolute;
+  width: 930px;
+  height: 280.8px;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 6px 7px -4px rgba(136, 136, 136, 0.06),
+    0px 11px 15px 1px rgba(136, 136, 136, 0.043);
+  border-radius: 15px;
+}
+
+.form {
+  position: absolute;
+  width: 1268px;
+  left: calc(50% - 1268px / 2);
+  top: 16px;
+  bottom: 16px;
+}
+
+.div {
+  position: absolute;
+  width: 1268px;
+  height: 340.8px;
+  left: 0px;
+  top: 0px;
+}
+
+.div-left {
+  position: absolute;
+  width: 514px;
+  left: 60px;
+  top: 60px;
+  bottom: 212.66px;
+}
+
+.describtion {
+  position: absolute;
+  width: 380.95px;
+  left: 30%;
+  top: -50px;
+  bottom: 1.11px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* or 142% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.div-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20.4px;
+
+  position: absolute;
+  left: 694px;
+  right: 60px;
+  top: 59px;
+  bottom: 17.6px;
+}
+
+.select {
+  width: 147px;
+  height: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card-mcq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 60.4px;
+  gap: 18px;
+
+  width: 514px;
+  height: 220.8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.option1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19.6px 19.5999px 19.6px 19.6px;
+
+  width: 350px;
+  height: 51.2px;
+
+  border: 1px solid #ededed;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.option1-1 {
+  width: 474.8px;
+  height: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.option1-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 174.8px 0.7125px 0px;
+
+  position: absolute;
+  width: 418.8px;
+  left: 56px;
+  top: 3.64px;
+  bottom: 4.65px;
+}
+
+.text-option1 {
+  width: 244px;
+  height: 23px;
+  margin-top: 12%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  /* identical to box height, or 142% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.point-option1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 20px;
+  top: 14%;
+
+  border: 1px solid #ededed;
+  border-radius: 16px;
+}
+
+.option2 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19.6px 19.5999px 19.6px 19.6px;
+
+  width: 350px;
+  height: 51.2px;
+
+  border: 1px solid #ededed;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.option2-1 {
+  width: 474.8px;
+  height: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.option2-1-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 97.8px 0.7125px 0px;
+
+  position: absolute;
+  width: 418.8px;
+  left: 56px;
+  top: 3.64px;
+  bottom: 4.65px;
+}
+
+.text-option2 {
+  width: 244px;
+  height: 23px;
+  margin-top: 31%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  /* identical to box height, or 142% */
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.option2-1-2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 20px;
+  top: 40%;
+
+  border: 1px solid #ededed;
+  border-radius: 16px;
+}
+
+.eclipse {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: -1px;
+  top: 5%;
+
+  background: #908db8;
+  border: 1px solid #908db8;
+  border-radius: 16px;
+}
+
+.btn-exit {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px 21px;
+  gap: 8px;
+
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: calc(50% - 182px / 2 + 290px);
+  top: 614px;
+
+  border: 1px solid #ff0000;
+  border-radius: 56px;
+}
+
+.label-exit {
+  width: 34px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+
+  color: #ff0000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px 21px;
+  gap: 8px;
+
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: calc(50% - 182px / 2 + 560px);
+  top: 614px;
+
+  background: #908db8;
+  border-radius: 56px;
+}
+
+.label-next {
+  width: 42px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn {
+  background-color: red;
+}
